@@ -1,15 +1,14 @@
-# Typescript npm package starter.
-This starter helps you to build your packages like a charm.
-Just read the logic and add the files or modify them as you like.
+# Anonymous telegram bot
+With this bot you protect your users from being detected by their telegram account information and in fact, you tunnel the user message through the bot as an anonymous account.
 
-## Features
+## Goals
+* Very easy to setup and use.
+* Installable as npm package.
 
-- Tsyringe included.
-- ESLint included (xo).
-- Jest included and ready to function.
-- Short imports implemented using module_alias.
+## Extra Information
+Please pay attention that this code is in development phase and you should not use this bot unless one safe version is published.
 
-## Import logic for developers
+### Import logic for developers
 
 For simplicity and increasing code readability i use this logic to imports and definition of my code.
 
