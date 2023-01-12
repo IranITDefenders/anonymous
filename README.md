@@ -1,4 +1,4 @@
-![https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fcdn.techmesto.com%2Fwp-content%2Fuploads%2F2021%2F03%2FAnonymous-mode-in-Telegram-Group.png&f=1&nofb=1&ipt=a9fd9fafdb33d39723859d9a39c80bd1fe5cc525f6f7f82a0f73f5b6d2fa2881&ipo=images]
+![Anonymous Telegram Bot](https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fcdn.techmesto.com%2Fwp-content%2Fuploads%2F2021%2F03%2FAnonymous-mode-in-Telegram-Group.png&f=1&nofb=1&ipt=a9fd9fafdb33d39723859d9a39c80bd1fe5cc525f6f7f82a0f73f5b6d2fa2881&ipo=images)
 # Anonymous telegram bot
 With this bot you protect your users from being detected by their telegram account information and in fact, you tunnel the user message through the bot as an anonymous account.
 
