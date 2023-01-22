@@ -22,8 +22,9 @@
     "incremental": true,
     "paths": {
       "@constant/*": ["./src/core/constant/*"],
-      "@interface/*": ["./src/interface/*"],
       "@service/*": ["./src/core/service/*"],
+      "@interface/*": ["./src/interface/*"],
+      "@shared/*": ["./src/shared/*"],
       "@core/*": ["./src/core/*"],
       "@type/*": ["./src/type/*"],
       "src/*": ["./src/*"]
