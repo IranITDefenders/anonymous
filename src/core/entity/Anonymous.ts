@@ -1,7 +1,8 @@
 import {Context} from 'telegraf';
+import {Entity} from '@interface/abstract/Entity';
 import {listener} from '@shared/decorators/listener.decorator';
 import {TelegrafProvider} from '@core/entity/FakeTelegramEntity';
-import {Entity} from '@interface/abstract/Entity';
+import {forceReply} from 'telegraf/typings/markup';
 
 export class Anonymous extends Entity {
   private _fakeTelegram: TelegrafProvider;
@@ -18,6 +19,8 @@ export class Anonymous extends Entity {
       type: 'sticker',
       from: ctx.from,
     });
+
+    ctx.reply('You send an sticker');
   }
 
   @listener('message')
@@ -26,6 +29,8 @@ export class Anonymous extends Entity {
       type: 'message',
       from: ctx.from,
     });
+
+    ctx.reply(`${ctx.from?.username}, You send a message :)`);
   }
 
   public init() {

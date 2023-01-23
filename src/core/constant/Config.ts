@@ -1,3 +1,5 @@
+import {readEnv} from '@shared/utilities/readEnv';
+
 export const APP_CONFIG = {
-  token: '',
+  token: readEnv('BOT_TOKEN'),
 };

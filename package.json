@@ -40,6 +40,7 @@
     "postversion": "git push && git push --tags"
   },
   "dependencies": {
+    "dotenv": "^16.0.3",
     "module-alias": "^2.2.2",
     "module-alias-jest": "^0.0.3",
     "reflect-metadata": "^0.1.13",
